@@ -26,6 +26,7 @@ def check(s):
             break
 
         if user_input not in s and user_input is not None:
+            s.add(user_input)
             with open(file_name, 'a') as outfile:
                 outfile.write(f"{user_input}\n")
             print(f"'{user_input}' has been saved to {file_name}")
