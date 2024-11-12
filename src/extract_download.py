@@ -32,7 +32,8 @@ def check(s):
             print(f"'{user_input}' has been saved to {file_name}")
         else:
             print(f"'{user_input}' is in the set. Try again!")
-check(s)
+            
+print(len(s))
 
     
 
